@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #DCDCDC">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/67dc5bf4dd.js" crossorigin="anonymous"></script>
     </head>
-    <body style="background-color: #DCDCDC">
-        <header style="background: white">
-             <!--Creates a navbar as a header-->
-             <nav>
+    <body>
+        <header class="bg-dark border-bottom">
+            <!--Creates a navbar as a header-->
+            <nav>
                 <!--Defines our container-->
-                <div class="container border-bottom">
+                <div class="container">
                     <!--Row 1-->
                     <section class="row justify-content-between">
                         <!--Column 1-->
                         <section class="col-lg-4 col-md-4 col-xs-12">
                             <!--Name w/ background color-->
-                            <h2 class="text-light text-center block mb-0 pb-3" style="background-color:#59aaa5">Wesley Tejeda</h2>
+                            <h2 class="text-light text-center block mb-0 pb-3 bgLightBlue">Wesley Tejeda</h2>
                         </section>
                         <!--Nav items w/ links-->
                         <section class="justify-content-end col-lg-6 col-md-6 col-xs-12">
                             <ul class="nav justify-content-center mt-2">
                                 <li class="nav-item">
-                                <a class="nav-link active" href="index.html">About</a>
+                                <a class="nav-link active border text-light" href="index.html">About</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link border text-light" href="portfolio.html">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link border text-light" href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </section>
                     </section>
                 </div>
             </nav>
-            <!--Divider-->
-            <hr class="m-0 p-0">
         </header>
         <main>
-            <div class="container pt-4">
+            <div class="container pt-4 pb-3">
                 <!--Row 1-->
                 <section class="row">
                     <!--Column 1 w/ classes to define breakpoints for card-->
@@ -48,7 +48,7 @@
                         <div class="card">
                             <!--Card title-->
                             <div class="card-title border-bottom ml-3 mb-0">
-                                <h2 class="mt-3 ml" style="color:#59aaa5">Contact</h2>
+                                <h2 class="mt-3 ml textLightBlue">Contact</h2>
                             </div>
                             <div class="card-body mb-5 pb-4">
                                 <!--Input fields-->
@@ -74,10 +74,22 @@
                 </section>
             </div>
         </main>
-        <!--Footer that sticks to bottom of page-->
         <footer class="text-center bg-dark text-light pb-1" style="position: fixed; left: 0; width: 100%; bottom: 0">
-            <hr class="m-0 pt-3" style="background-color:#59aaa5">
-            <p>&copy; Copyright</p>
+            <hr class="m-0 pt-3 bgLightBlue">
+            <section class="row justify-content-center pt-2 mr-2">
+                <section class="col-2 text-center">
+                    <a target="_blank" class="textLightBlue" href="https://github.com/WesleyTejeda"><i class="fab fa-github"></i></a>
+                    <p>GitHub</p>
+                </section>
+                <section class="col-2 text-center">
+                    <a target="_blank" class="textLightBlue" href="https://www.linkedin.com/in/wesley-tejeda-574a641a9/"><i class="fab fa-linkedin-in"></i></a>
+                    <p>LinkedIn</p>
+                </section>
+                <section class="col-2 text-center">
+                    <a target="_blank" href="images/Wesley_Tejeda_Resume.PDF"><i class="far fa-file-pdf"></i></a>
+                    <p>Resume</p>
+                </section>
+            </section>
         </footer>
     </body>
 </html>

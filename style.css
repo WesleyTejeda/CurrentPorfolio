@@ -1,0 +1,25 @@
+.bgLightBlue {
+    background-color:#59aaa5;
+}
+
+body {
+    /* background-color: #DCDCDC; */
+    background-image: url(https://im.ezgif.com/tmp/ezgif-1-082e0ae59cb2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.textLightBlue {
+    color:#59aaa5;
+}
+
+.siteContainers {
+    height: auto;
+}
+
+.sites {
+    padding-top: 30px;
+    background-color: black;
+    padding-bottom: inherit;
+    margin-bottom: 20px;
+}
