@@ -4,7 +4,7 @@
 
 body {
     /* background-color: #DCDCDC; */
-    background-image: url(images/siteBG.png);
+    background-image: url(/images/siteBG.png);
     background-position: center;
     background-size: cover;
 }
@@ -22,9 +22,4 @@ body {
     background-color: black;
     padding-bottom: inherit;
     margin-bottom: 20px;
-}
-
-footer {
-    position: sticky;
-    bottom: 0;
 }
