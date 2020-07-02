@@ -1,4 +1,4 @@
-Deployed Link: ![](https://wesleytejeda.github.io/CurrentPortfolio)
+Deployed Link: https://wesleytejeda.github.io/CurrentPortfolio
 # CurrentPorfolio
 In this repository I created a main page with information about myself and 2 subpages.
 Using only bootstrap CSS (and just a touch of inline CSS) I created responsive webpages 
