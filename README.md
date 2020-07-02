@@ -1,3 +1,4 @@
+Deployed Link: wesleytejeda.github.io/CurrentPortfolio
 # CurrentPorfolio
 In this repository I created a main page with information about myself and 2 subpages.
 Using only bootstrap CSS (and just a touch of inline CSS) I created responsive webpages 
@@ -12,6 +13,6 @@ row length in our container. When the screen goes to small size our card will re
 
 Each page also has a sticky footer that scrolls with the page.
 
-If you'd like to see more please open the web pages included in this folder or go to my page at wesleytejeda.github/CurrentPortfolio
+If you'd like to see more please open the web pages included in this folder or go to my page at wesleytejeda.github.io/CurrentPortfolio
 
 Thank you.
