@@ -29,8 +29,13 @@ body {
     margin-bottom: 20px;
 }
 
+.siteExtra {
+    padding-top: 50px;
+}
+
 img, .card-img-overlay {
-    max-height: 200px;
+    height: 200px;
+    width: auto;
 }
 
 body {
